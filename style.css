@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f2f1; /* ミントグリーンの背景色 */
+}
+
+h1 {
+  text-align: center;
+  color: #26a69a; /* ミントグリーンの文字色 */
+}
+
+#new-task {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #b2dfdb; /* ミントグリーンのボーダー */
+  border-radius: 5px;
+}
+
+#add-task {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #26a69a; /* ミントグリーンの背景色 */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+#task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#task-list li button {
+  background-color: #f44336; /* 赤色の背景色 */
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* 丸みを帯びたデザイン */
+  padding: 8px 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 影を追加 */
+}
+
+#task-list li button:hover {
+  background-color: #d32f2f; /* ホバー時の色 */
+}
