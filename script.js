@@ -4,6 +4,7 @@ const taskList = document.getElementById('task-list');
 const tasks = [];
 
 taskList.addEventListener('dragover', function(e) {
+  // ドロップできるように既定の動作を停止
   e.preventDefault();
 });
 
